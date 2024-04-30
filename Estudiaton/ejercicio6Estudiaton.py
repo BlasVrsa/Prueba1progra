@@ -10,6 +10,7 @@ if numero <= 1:
 else:
     # Iterando desde 2 hasta la raíz cuadrada del número
     for i in range(2, int(numero/2) + 1):
+        print(i)
         if numero % i == 0:
             es_primo = False
             break
